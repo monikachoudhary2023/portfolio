@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio Website</title>
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="style.css">
+
+    <script src="https://kit.fontawesome.com/81f5e9c1af.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    
+    <div id ="header">
+       <div class="container">
+            <nav>
+                <imag src="/logo.jpg" class="logo"></imag>
+                <ul>
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#">Services</a></li>
+                    <li><a href="#">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+            <div class="header-text">
+                <p>WEB Designer</p>
+                <h1>Hi, I am <span>monika <br></span> choudhary from bihar.</h1>
+            </div>
+        </div>
+        
+    </div>
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="column1">
+                    <img src="./img2.jpg">
+                </div>
+                <div class="column2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>I am Monika Choudhary I am belongs to <br>banmakhani city  which is located in Bihar.<br>
+                         I pursuing my BTech in electronics and <br>
+                          communication engineering from women institute of
+                           <br>technology Dehradun. I didmy 12th from AD <br>saraswasti Vidya Mandir Bhagalpur 
+                        and <br>I did my 10th from RS Saraswati Vidya Mandir jogbani.</p>
+
+                        <div class="tab-title">
+                            <p class="tab-links active-link" onclick="opentab('Skills')">Skills</p>
+                            <p class="tab-links" onclick="opentab('Educations')">Educations</p>
+                        </div>
+                        <div class="tab-contents active-tab" id="skills">
+                            <ul>
+                                <li><span>Designing</span><br>Designing Web Interfece.</li>
+                                <li><span>Devlopment</span><br>Web devlopment.</li>
+                                <li><span>Circuit design</span><br>circuit design for hardware.</li>
+                            </ul>
+                        </div>
+                        <div class="tab-contents" id="Educations">
+                            <ul>
+                                <li><span>2023-CURRENT</span><br> junior java devloper at generation AISCET indore .</li>
+                                <li><span>2019-2023</span><br>ECE at WOMEN INSTITUTE OF TECHNOLOGY DEHRADUN.</li>
+                                <li><span>2016-2018</span><br>12th from AD saraswati vidya mandir bhaglpur.</li>
+                            </ul>
+                        </div>
+                </div>
+            </div>
+        </div>
+    </div>
+<!------services------>
+<div id="services">
+    <div class="container">
+        <h1 class="sub-title">My Services</h1>
+        <div class="services-list">
+            <div>
+                <i class="fa-regular fa-code"></i>
+                <h2>Web Devlopment</h2>
+                <P>Web development refers to the creating, building,  and maintaining of websites.
+                     It includes aspects  such as web design, web publishing, web programming, and database management. </P>
+                     <a href="">Learn more</a>
+            </div>
+            <div>
+                <i class="fa-solid fa-crop"></i>
+                <h2>circuit designing</h2>
+                <P>Create diagrams visually by placing components  with your cursor. Extend the built-in
+                     functionality with custom components. </P>
+                     <a href="">Learn more</a>
+            </div>
+            <div>
+                <i class="fa-brands fa-app-store"></i>
+                <h2>frontend Devlopment</h2>
+                <P>Front-End Developer is someone who creates websites and web applications. The difference between 
+                    Front-End and Back-End is that Front-End  refers to how a web page looks, 
+                    while back-end refers to how it works.  </P>
+                     <a href="">Learn more</a>
+            </div>
+        </div>
+    </div>
+
+</div>
+
+<!------------ contact ---------->
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+               <h1 class="sub-title">contact me</h1>
+                 <p><i class='bx bx-send'></i> Email id:choudharymonika0212@gmail.com</p><br>
+                 <p><i class='bx bxs-phone-call' ></i> Phone no. : 7004837974</p>
+            <div class="social-icons">
+                <a href="https://instagram.com/"><i class='bx bxl-instagram'></i></a>
+                <a href=""><i class='bx bxl-facebook'></i></a>
+                <a href=""><i class='bx bxl-twitter'></i></a>
+                <a href=""><i class='bx bxl-linkedin' ></i></a>
+            </div>
+                 <a href="./Resume Monika ¢houdhary.pdf" download class ="btn btn2">Download CV</a>
+            </div>  
+            <div class="contact-right">
+                <form action="">
+            
+                    <p class="name">
+                        Your Name:<br>
+                        <input type="text" name="name" id="name" placeholder="Enter Name">
+                    </p>
+                    <p class="email"> Your Email:<br>
+                        <input type="email" name="email" id="email" placeholder="Enter your Email">
+                    </p>
+                    <p class="number">
+                        Your mobile number:<br>
+                        <input type="text" placeholder="Enter your mobile number">
+                    </p>
+                    <p class="number">
+                        Enter Password:<br>
+                        <input type="password" placeholder="Enter your mobile number">
+                    </p>
+                    <p class="message">
+                        Your message to us:<br>
+                        <textarea name="message" id="" cols="50" rows="5" placeholder="Enter your query here"></textarea>
+                    </p>
+
+                    <input type="submit" value="Submit"> <input type="reset" value="Reset">
+                    <button type="submit" class="btn btn2">Submit</button>
+                </form>
+            </div>
+        </div>
+    </div>
+    <div class="copyrights">
+        <p>copyright @ monika. made <i class='bx bxs-heart'></i>with this  </p>
+    </div>
+</div>
+
+
+    <script>
+        var tablinks = document.getElementByClassName("tab-links");
+        var tabcontents =document.getElementByClassName("tab-contents");
+
+        function opentab(tabname)
+        {
+            for(tablink of tablinks){
+                tablink.classList.remove("active-link");
+           }
+            for(tabcontent of tabcontents){
+                tabcontent.classList.remove("active-tab");
+           }
+           event.currentTarget.classList.add("active-link");
+           document.getElemtById(tabname).classList.add("active-add");
+        }   
+    </script>
+
+</body>
+</html>
